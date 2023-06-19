@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abril Fatface", cursive;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #880bea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  padding: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: conic-gradient(#880bea 30deg, #ededed 0%);
+
+}
