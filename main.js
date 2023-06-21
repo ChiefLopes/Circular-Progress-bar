@@ -24,12 +24,17 @@ function bar() {
       var interval = setInterval(function () {
         let currentColor = progressBar.style.background;
         let newColor = currentColor === colors[0] ? colors[1] : colors[0];
-        progressBar.style.background= newColor;
+          progressBar.style.background = newColor;
+          console.log(newColor);
       }, 10);
         
-        var clearTime = 5000; // Time in milliseconds to clear the interval
+        var clearTime = 1000; // Time in milliseconds to clear the interval
         setTimeout(function () {
-          clearInterval(interval);
+            clearInterval(interval);
+            
+            if (clearTime == 1000) {
+               progressBar.style.background = 'green'
+            }
         }, clearTime);
     } 
   });
