@@ -32,7 +32,7 @@ body {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background: conic-gradient(#880bea 70deg, #ededed 0%);
+  background: conic-gradient(#880bea 0deg, #ededed 0%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,6 +91,7 @@ button {
   border: none;
   cursor: pointer;
 }
+
 
 button:active {
    color: #880bea;
